@@ -32,6 +32,7 @@ public:
     void AddNodeatHead(int data);
     void AddNodeatTail(int data);
     void PrintReverse();
+    void Test();
 
     
 };
@@ -86,6 +87,10 @@ void DoublyLList::PrintReverse(){
         cout << temp->data << endl;
         temp = temp->prev;
     }
+}
+
+void DoublyLList::Test(){
+    
 }
 
 #endif /* Doubly_Linked_List_hpp */
