@@ -90,7 +90,7 @@ void DoublyLList::PrintReverse(){
 }
 
 void DoublyLList::Test(){
-    
+    cout << "this is a test" << endl;
 }
 
 #endif /* Doubly_Linked_List_hpp */
