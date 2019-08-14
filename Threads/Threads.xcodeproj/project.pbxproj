@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4020F9B23030AFB00F2DC51 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4020F9A23030AFB00F2DC51 /* main.cpp */; };
+		C4020FA2230329C100F2DC51 /* phoneRace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4020FA1230329C100F2DC51 /* phoneRace.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		C4020F9723030AFB00F2DC51 /* Threads */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Threads; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4020F9A23030AFB00F2DC51 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4020FA1230329C100F2DC51 /* phoneRace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = phoneRace.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				C4020F9A23030AFB00F2DC51 /* main.cpp */,
+				C4020FA1230329C100F2DC51 /* phoneRace.cpp */,
 			);
 			path = Threads;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4020F9B23030AFB00F2DC51 /* main.cpp in Sources */,
+				C4020FA2230329C100F2DC51 /* phoneRace.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
